@@ -1,0 +1,1 @@
+chrome.devtools.panels.create("JsonToTs", "./logo.png", "index.html");
