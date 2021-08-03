@@ -1,0 +1,35 @@
+:global(#root) {
+  height: 100%;
+}
+.panelWrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.previewWrap {
+  display: flex;
+  height: 100%;
+}
+.previewCode {
+  height: 100%;
+  flex: 0 0 50%;
+  width: 50%;
+  font-size: 14px;
+}
+
+.hover:hover {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.select,
+.select:hover > td {
+  color: #fff;
+  background: #1890ff !important;
+}
+
+:global(.ant-checkbox + span) {
+  padding-left: 4px;
+  padding-right: 0px;
+}

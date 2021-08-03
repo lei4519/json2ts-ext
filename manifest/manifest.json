@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "JsonToTs",
+  "version": "1.0.0",
+  "icons": {
+    "16": "./logo.png",
+    "48": "./logo.png",
+    "128": "./logo.png"
+  },
+  "devtools_page": "devtools.html",
+  "permissions": [
+    "storage"
+  ]
+}
